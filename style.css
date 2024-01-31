@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(53, 114, 127);
+}
+
+body {
+    background-color: #baaab0;
+    width: 100%;
+}
+
+.container {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    /* margin-left: 34%;
+    padding-top: 40px;
+    margin-top: 70px; */
+    /* align-items: center; */
+    justify-content: center;
+    justify-items: center;
+    background-color: #c7ee62;
+    border: solid black;
+}
