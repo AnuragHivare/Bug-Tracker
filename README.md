@@ -155,11 +155,6 @@ Add this line to VM Options:
   <img src="https://user-images.githubusercontent.com/41492875/134807534-27caade9-368b-4fb7-a238-b751468cfdf4.png"/>
 </p>
 
-### Project Manager Dashboard
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/41492875/134807532-93c3a4db-b23a-4838-bbd1-a3b16769725b.png"/>
-</p>
-
 ### Add Project Page
 <p align="center">
   <img src="https://user-images.githubusercontent.com/41492875/134807537-907aa061-aaab-4027-9694-fa7c4fc5a7ab.png"/>
