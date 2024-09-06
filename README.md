@@ -109,7 +109,7 @@ You write the pure data or your template in your new Model class. Develop a GUI 
 [Database Models](Database%20Models)
 
 ## Author
-[Yousef Kotp](https://github.com/yousefkotp)
+**Anurag Hiware
 
 ## Common Errors
 > You should open your IDE. File->Project Structure->Module. You should mark each folder you find inside "src" folder as a source. If you don't do so you can face many errors.
