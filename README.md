@@ -56,7 +56,7 @@ This library is already downloaded in the repo, you won't have to download it.
 7. Scene Builder for GUI
 
 
-## Deployment
+## connect your JavaFX application to your database and launch the user interface
 **1. Setting your Database**
 
 Inside "dbUtil" folder, you will find "DBConnection" class. You can change the value of the following variables and assign them to your database.
@@ -73,43 +73,11 @@ Inside "dbUtil" folder, you will find "DBConnection" class. You can change the v
 Run the "GUIStart" class inside View folder as your main class
 
 
-## Design Pattern
-<p align="center">
- <strong> Model-View-Controller Design Pattern</strong>
-</p>
-
-
-In "src" folder, you will find 3 sub folders name "Model", "View" and "Controller". These folders contain the classes where MVC pattern is applied
-
-**1. Model**
-
-contains only the pure application data, it contains no logic describing how to present the data to a user.
-
-**2. View**
-
-presents the model’s data to the user. The view knows how to access the model’s data, but it does not know what this data means or what the user can do to manipulate it.
-
-**3. Controller**
-
-Exists between the view and the model. It listens to events triggered by the view and executes the appropriate reaction to these events. The reaction is to call a method on the controller classes. Since the view and the model are connected through a notification mechanism, the result of this action is then automatically reflected in the view.
-
-## S.O.L.I.D Principles
-**1. Single-Responsibility Principle**
-
-A class should have one and only one reason to change, meaning that a class should have only one job. That is why controller classes such as "AddBugController". such classes are only responsible for one thing as shown from classes' name.
-
-**2.  Open-Closed Principle**
-
-If you want to contribute to this project by adding whatever you want, all you need is no less than 3 classes in 3 different folders which are Model, View and controller folders.
-
-You write the pure data or your template in your new Model class. Develop a GUI for your added feature in your new View class. Define how you want it to react for whatever the user does in your new Controller class.
-
-
 ## Database Models
 [Database Models](Database%20Models)
 
 ## Author
-**Anurag Hiware
+Anurag Hiware
 
 ## Common Errors
 > You should open your IDE. File->Project Structure->Module. You should mark each folder you find inside "src" folder as a source. If you don't do so you can face many errors.
